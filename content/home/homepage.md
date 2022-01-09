@@ -14,18 +14,17 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
   background:
-    # Apply a background color, gradient, or image.
-    #   Uncomment (by removing `#`) an option to apply it.
-    #   Choose a light or dark text color by setting `text_color_light`.
-    #   Any HTML color name or Hex value is valid.
-    # color: navy
-    # gradient_start: DarkGreen
-    # gradient_end: ForestGreen
-    image: hello.jpg  # Name of image in `static/media/`.
-    image_darken: 0.4
+  # Name of image in `assets/media/`.
+    image: delmar12.jpeg
+    # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+    image_darken: 0.6
+    #  Options are `cover` (default), `contain`, or `actual` size.
     image_size: cover
-    image_position: right
+    # Options include `left`, `center` (default), or `right`.
+    image_position: center
+    # Use a fun parallax-like fixed background effect on desktop? true/false
     image_parallax: true
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 advanced:
   css_style:
